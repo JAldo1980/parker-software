@@ -4,6 +4,7 @@ import ImageAside from "./components/ImageAside";
 import FlexElements from "./components/FlexElements";
 import CardsProduct from "./components/CardsProduct";
 import BannerSmall from "./components/BannerSmall";
+import GridCards from "./components/GridCards";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <ImageAside />
         <FlexElements />
         <CardsProduct />
+        <BannerSmall />
+        <GridCards />
         <BannerSmall />
       </main>
     </div>
