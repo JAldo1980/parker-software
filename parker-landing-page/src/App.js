@@ -5,6 +5,7 @@ import FlexElements from "./components/FlexElements";
 import CardsProduct from "./components/CardsProduct";
 import BannerSmall from "./components/BannerSmall";
 import GridCards from "./components/GridCards";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <BannerSmall />
         <GridCards />
         <BannerSmall />
+        <Footer />
       </main>
     </div>
   );
