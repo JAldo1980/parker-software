@@ -3,6 +3,7 @@ import TopNav from "./components/TopNav";
 import ImageAside from "./components/ImageAside";
 import FlexElements from "./components/FlexElements";
 import CardsProduct from "./components/CardsProduct";
+import BannerSmall from "./components/BannerSmall";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ImageAside />
         <FlexElements />
         <CardsProduct />
+        <BannerSmall />
       </main>
     </div>
   );
