@@ -6,7 +6,9 @@ function ImageAside() {
       <div className="self-center">
         <h2 className="text-5xl">Impactful headline goes here</h2>
         <p className="py-2">Sub-text to go here, below the impactful header</p>
-        <button className="py-2">CTA here</button>
+        <button className="px-4 py-2 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+          Explore
+        </button>
       </div>
 
       <div className="self-center relative">
