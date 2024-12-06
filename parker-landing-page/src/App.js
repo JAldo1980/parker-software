@@ -1,5 +1,7 @@
 import React from "react";
 
+import TopNav from "./components/TopNav";
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -12,7 +14,7 @@ function App() {
           </p>
         </section>
 
-        {/* Add more components here */}
+        <TopNav />
       </main>
     </div>
   );
