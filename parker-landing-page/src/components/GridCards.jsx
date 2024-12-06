@@ -3,7 +3,7 @@ import React from "react";
 function GridCards() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
-      <div className="border-2 border-black rounded-md p-4 shadow-md">
+      <div className="rounded-md p-4 shadow-md bg-gradient-to-r from-[#69acdf] to-[#005f99] text-white">
         <h3 className="text-lg font-bold mb-2">Header goes here</h3>
         <img
           src=""
@@ -15,7 +15,7 @@ function GridCards() {
           CTA here
         </button>
       </div>
-      <div className="border-2 border-black rounded-md p-4 shadow-md">
+      <div className="rounded-md p-4 shadow-md bg-gradient-to-r from-[#69acdf] to-[#005f99] text-white">
         <h3 className="text-lg font-bold mb-2">Header goes here</h3>
         <img
           src=""
@@ -27,7 +27,7 @@ function GridCards() {
           CTA here
         </button>
       </div>
-      <div className="border-2 border-black rounded-md p-4 shadow-md">
+      <div className="rounded-md p-4 shadow-md bg-gradient-to-r from-[#69acdf] to-[#005f99] text-white">
         <h3 className="text-lg font-bold mb-2">Header goes here</h3>
         <img
           src=""
@@ -39,7 +39,7 @@ function GridCards() {
           CTA here
         </button>
       </div>
-      <div className="border-2 border-black rounded-md p-4 shadow-md">
+      <div className="rounded-md p-4 shadow-md bg-gradient-to-r from-[#69acdf] to-[#005f99] text-white">
         <h3 className="text-lg font-bold mb-2">Header goes here</h3>
         <img
           src=""
