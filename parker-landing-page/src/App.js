@@ -2,6 +2,7 @@ import React from "react";
 import TopNav from "./components/TopNav";
 import ImageAside from "./components/ImageAside";
 import FlexElements from "./components/FlexElements";
+import CardsProduct from "./components/CardsProduct";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <TopNav />
         <ImageAside />
         <FlexElements />
+        <CardsProduct />
       </main>
     </div>
   );
