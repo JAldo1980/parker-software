@@ -1,5 +1,5 @@
 import React from "react";
-import { ProblemsData } from "../data/problems"; // Adjust the path based on your folder structure
+import { ProblemsData } from "../data/problems";
 
 function FlexElements() {
   return (
@@ -20,7 +20,7 @@ function FlexElements() {
                   : "bg-[#8c60d7]"
               }`}
             >
-              <h3>{problem.h3}</h3>
+              <h3 className="text-white font-semibold text-xl">{problem.h3}</h3>
             </div>
           ))}
         </div>
@@ -33,7 +33,7 @@ function FlexElements() {
                 index === 0 ? "bg-[#5c4aa0]" : "bg-[#8c60d7]"
               }`}
             >
-              <h3>{problem.h3}</h3>
+              <h3 className="text-white font-semibold text-xl">{problem.h3}</h3>
             </div>
           ))}
         </div>
