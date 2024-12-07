@@ -13,6 +13,11 @@ function CardsProduct() {
             key={card.id}
             className="p-4 rounded-md shadow-md bg-gradient-to-r from-[#228658] to-[#1b6a47]"
           >
+            <img
+              src={card.image}
+              alt={card.imageAltText}
+              className="w-full h-40 object-cover mb-4"
+            />
             <h3 className="text-xl font-bold mb-2 text-white">{card.header}</h3>
             <p className="mb-4 text-white">{card.subText}</p>
             <button className="bg-white text-[#228658] px-4 py-2 rounded hover:bg-gray-200">
