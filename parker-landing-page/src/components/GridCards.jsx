@@ -3,7 +3,7 @@ import React from "react";
 function GridCards() {
   return (
     <>
-      <div className="flex justify-center mt-6">
+      <div id="resources" className="flex justify-center mt-6">
         <h className="sm:text-3xl md:text-3xl lg:text-4xl">Our Resources</h>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
