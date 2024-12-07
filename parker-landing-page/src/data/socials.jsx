@@ -1,27 +1,27 @@
 export const SocialData = [
   {
     id: 1,
-    img: "",
-    imgAlt: "Facebook",
+    image: "/facebook-logo.png",
+    imgAlt: "Facebook logo",
   },
   {
     id: 2,
-    img: "",
+    image: "/facebook-logo.png",
     imgAlt: "Instagram",
   },
   {
     id: 3,
-    img: "",
+    image: "/facebook-logo.png",
     imgAlt: "Youtube",
   },
   {
     id: 4,
-    img: "",
+    image: "/facebook-logo.png",
     imgAlt: "LinkedIn",
   },
   {
     id: 5,
-    img: "",
+    image: "/facebook-logo.png",
     imgAlt: "X",
   },
 ];
