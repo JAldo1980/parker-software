@@ -1,43 +1,43 @@
 export const ClientData = [
   {
     id: 1,
-    img: "/public/aviva_logo.png",
-    imgAlt: "",
+    image: "/aviva_logo.png",
+    imgAlt: "Aviva logo",
   },
   {
     id: 2,
-    img: "/public/cisco_logo.png",
-    imgAlt: "",
+    image: "/cisco_logo.png",
+    imgAlt: "Cisco logo",
   },
   {
     id: 3,
-    img: "/public/gsk_logo.png",
-    imgAlt: "",
+    image: "/gsk_logo.png",
+    imgAlt: "gsk logo",
   },
   {
     id: 4,
-    img: "/public/ford_logo.png",
-    imgAlt: "",
+    image: "/ford_logo.png",
+    imgAlt: "Ford logo",
   },
   {
     id: 5,
-    img: "/public/mcdonalds_logo.png",
-    imgAlt: "",
+    image: "/mcdonalds-logo.png",
+    imgAlt: "McDonalds logo",
   },
   {
     id: 6,
-    img: "/public/nasa_logo.png",
-    imgAlt: "",
+    image: "/nasa_logo.png",
+    imgAlt: "NASA logo",
   },
   {
     id: 6,
-    img: "/public/hp_logo.png",
-    imgAlt: "",
+    image: "/hp_logo.png",
+    imgAlt: "HP logo",
   },
   {
     id: 8,
-    img: "/public/game_logo.png",
-    imgAlt: "",
+    image: "/game_logo.png",
+    imgAlt: "Game logo",
   },
 ];
 

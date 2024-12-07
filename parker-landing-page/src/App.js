@@ -6,8 +6,11 @@ import CardsProduct from "./components/CardsProduct";
 import BannerSmall from "./components/BannerSmall";
 import GridCards from "./components/GridCards";
 import Footer from "./components/Footer";
+import FlexImages from "./components/FlexImages";
 
 import { ProblemsData } from "./data/problems";
+import { ClientData } from "./data/clients";
+import { SocialData } from "./data/socials";
 
 function App() {
   return (
@@ -20,7 +23,7 @@ function App() {
         <ImageAside />
         <FlexElements data={ProblemsData} />
         <CardsProduct />
-
+        <FlexImages data={ClientData} />
         <BannerSmall />
         <GridCards />
         <BannerSmall />
