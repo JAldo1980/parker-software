@@ -7,6 +7,8 @@ import BannerSmall from "./components/BannerSmall";
 import GridCards from "./components/GridCards";
 import Footer from "./components/Footer";
 
+import { ProblemsData } from "./data/problems";
+
 function App() {
   return (
     <div
@@ -16,8 +18,9 @@ function App() {
       <main className="container mx-auto px-4 py-6 sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px]">
         <TopNav />
         <ImageAside />
-        <FlexElements />
+        <FlexElements data={ProblemsData} />
         <CardsProduct />
+
         <BannerSmall />
         <GridCards />
         <BannerSmall />
