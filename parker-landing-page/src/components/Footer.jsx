@@ -13,13 +13,16 @@ function Footer() {
           <a href="#" className="hover:text-white">
             Home
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="" className="hover:text-white">
             About Us
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="#solutions" className="hover:text-white">
             Solutions
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="#resources" className="hover:text-white">
+            Resources
+          </a>
+          <a href="" className="hover:text-white">
             Contact
           </a>
         </div>
