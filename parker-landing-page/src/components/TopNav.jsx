@@ -38,30 +38,32 @@ function TopNav() {
           </button>
         </div>
         <div
-          className={`sm:hidden absolute top-0 right-0 w-3/4 bg-white p-6 mt-12 rounded-lg shadow-md ${
+          className={`sm:hidden absolute top-0 right-0 w-3/4 bg-white p-6 mt-14 rounded-lg shadow-md ${
             isMenuOpen ? "block" : "hidden"
           }`}
         >
           <a
             href="#solutions"
             onClick={closeMenu}
-            className="block mb-4 hover:underline"
+            className="text-right block mb-4 hover:underline"
           >
             Solutions
           </a>
           <a
             href="#resources"
             onClick={closeMenu}
-            className="block mb-4 hover:underline"
+            className=" text-right block mb-4 hover:underline"
           >
             Resources
           </a>
-          <button
-            onClick={closeMenu}
-            className="block px-4 py-2 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500"
-          >
-            Contact
-          </button>
+          <div className="flex justify-end">
+            <button
+              onClick={closeMenu}
+              className="text-right block px-4 py-2 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+            >
+              Contact
+            </button>
+          </div>
         </div>
       </div>
     </div>
