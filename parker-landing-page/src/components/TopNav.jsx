@@ -34,7 +34,7 @@ function TopNav() {
             <a href="#resources" className="hover:underline">
               Resources
             </a>
-            <button className="px-4 py-2 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+            <button className="px-4 py-2 bg-[#e06a61] text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500">
               Contact
             </button>
           </div>
@@ -60,7 +60,7 @@ function TopNav() {
             <div className="flex justify-end">
               <button
                 onClick={closeMenu}
-                className="text-right block px-4 py-2 bg-red-600 text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500"
+                className="text-right block px-4 py-2 bg-[#e06a61] text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-green-500"
               >
                 Contact
               </button>

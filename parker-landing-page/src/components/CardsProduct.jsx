@@ -10,10 +10,12 @@ function CardsProduct() {
         {SolutionData.map((card) => (
           <div
             key={card.id}
-            className="mt-12 relative p-4 rounded-md shadow-md bg-gradient-to-r from-[#228658] to-[#1b6a47]"
+            className="mt-12 relative p-4 rounded-md shadow-md bg-gradient-to-r from-[#e06a61] to-[#e06a61]"
           >
-            {/* Green circle wrapper */}
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-blue-900 rounded-full flex items-center justify-center mb-4 p-2">
+            <div
+              className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 rounded-full flex items-center justify-center mb-4 p-2"
+              style={{ backgroundColor: card.logoColour }}
+            >
               <img
                 src={card.thumbnail}
                 alt={card.imageAltText}
@@ -28,7 +30,7 @@ function CardsProduct() {
             />
             <h3 className="text-xl font-bold mb-2 text-white">{card.header}</h3>
             <p className="mb-4 text-white">{card.subText}</p>
-            <button className="bg-white text-[#228658] px-4 py-2 rounded hover:bg-gray-200">
+            <button className="bg-white text-[#e06a61] px-4 py-2 rounded hover:bg-gray-200">
               {card.cta}
             </button>
           </div>
