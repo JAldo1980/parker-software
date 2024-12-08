@@ -19,9 +19,10 @@ function TopNav() {
             <img
               src="parker-software.png"
               alt="Parker Software Logo"
-              className="w-1/5"
+              className="w-auto h-12 md:h-14 lg:h-18 object-contain"
             />
           </div>
+
           <div className="sm:hidden">
             <button onClick={toggleMenu} className="text-xl">
               <span className="block w-6 h-0.5 bg-black mb-1"></span>

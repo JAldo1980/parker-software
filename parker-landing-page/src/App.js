@@ -28,6 +28,7 @@ function App() {
         <BannerSmall />
       </main>
       <Footer />
+      <BannerStretch />
     </div>
   );
 }
