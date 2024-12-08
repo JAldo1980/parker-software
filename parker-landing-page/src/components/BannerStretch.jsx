@@ -3,7 +3,7 @@ import React from "react";
 function BannerStretch() {
   return (
     <>
-      <div className="flex flex-wrap justify-center bg-[#e06a61] p-2 gap-2">
+      <div className="flex flex-wrap justify-center bg-[#61e0c5] p-2 gap-2">
         <h4 className="text-l text-white">
           Meet us at the Gartner Digital Workplace Summit | 19 - 20 May 2025
           London, U.K.
