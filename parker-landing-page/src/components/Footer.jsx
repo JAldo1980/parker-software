@@ -4,8 +4,12 @@ function Footer() {
   return (
     <footer className=" bg-[#374248] text-gray-300 py-6 mt-6">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-4">
-          <h2 className="text-xl font-bold text-white">Parker Software</h2>
+        <div className="flex justify-center mb-4">
+          <img
+            src="parkersoftware-white-logo.png"
+            alt="Parker Software Logo"
+            className="w-auto h-6 md:h-8 lg:h-10 object-contain"
+          />
         </div>
         <div className="flex justify-center space-x-8 mb-4">
           <a href="#" className="hover:text-white">
