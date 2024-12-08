@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialData } from "../data/socials";
 
 function Footer() {
   return (
@@ -27,6 +28,17 @@ function Footer() {
           <a href="" className="hover:text-white">
             Contact
           </a>
+        </div>
+        <div className="flex justify-center space-x-4 mb-4">
+          {SocialData.map((item) => (
+            <div key={item.id}>
+              <img
+                src={item.image}
+                alt={item.imgAlt}
+                className="w-6 h-6 object-contain cursor-pointer"
+              />
+            </div>
+          ))}
         </div>
 
         <hr className="border-gray-600 mb-4" />

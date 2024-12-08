@@ -1,28 +1,28 @@
 export const SocialData = [
   {
     id: 1,
-    image: "/facebook-logo.png",
+    image: "/icons8-facebook-24.png",
     imgAlt: "Facebook logo",
   },
   {
     id: 2,
-    image: "/facebook-logo.png",
-    imgAlt: "Instagram",
+    image: "/icons8-instagram-24.png",
+    imgAlt: "Instagram logo",
   },
   {
     id: 3,
-    image: "/facebook-logo.png",
-    imgAlt: "Youtube",
+    image: "/icons8-youtube-25.png",
+    imgAlt: "Youtube logo",
   },
   {
     id: 4,
-    image: "/facebook-logo.png",
-    imgAlt: "LinkedIn",
+    image: "/icons8-linkedin-circled-25.png",
+    imgAlt: "LinkedIn logo",
   },
   {
     id: 5,
-    image: "/facebook-logo.png",
-    imgAlt: "X",
+    image: "/icons8-twitterx-24.png",
+    imgAlt: "X logo",
   },
 ];
 
