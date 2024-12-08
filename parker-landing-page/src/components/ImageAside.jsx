@@ -17,22 +17,13 @@ function ImageAside() {
         </button>
       </div>
 
-      {/* Right Section (Video / Placeholder) */}
+      {/* Right Section (Image) */}
       <div className="flex justify-center items-center relative w-full h-full">
-        {/* Video for Large Screens */}
-        <video
-          src="https://www.parkersoftware.com/img/vid.mp4"
-          autoPlay
-          loop
-          muted
-          className="object-cover clip-circle w-80 h-80 lg:w-96 lg:h-96 hidden md:block "
-        ></video>
-        <div className="absolute w-80 h-80 lg:w-96 lg:h-96 bg-black bg-opacity-50 clip-circle"></div>
-
-        {/* Placeholder for Small and Medium Screens */}
-        <div className="w-80 h-80 lg:w-96 lg:h-96 bg-gray-200 flex items-center justify-center clip-circle md:hidden">
-          <p className="text-gray-700 text-center">Video Placeholder</p>
-        </div>
+        <img
+          src="parker-software-animation.gif"
+          alt=""
+          className="w-2/3 md:w-1/2 lg:w-2/3" // Adjust size here
+        />
       </div>
     </div>
   );

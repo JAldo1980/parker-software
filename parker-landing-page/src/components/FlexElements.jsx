@@ -5,7 +5,9 @@ function FlexElements() {
   return (
     <>
       <div className="flex justify-center mt-6">
-        <h className="sm:text-3xl md:text-3xl lg:text-4xl">Your Problems</h>
+        <h className="sm:text-3xl md:text-3xl lg:text-4xl text-[#3a3a3a]">
+          Your Problems
+        </h>
       </div>
       <div className="flex flex-col gap-6 pt-6">
         <div className="flex flex-wrap gap-4 w-full">

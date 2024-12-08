@@ -8,7 +8,7 @@ export const cardData = [
     category: "News",
     date: "December 6th, 2024",
     subText:
-      "As software houses respond to these industry shifts, the future promises even greater innovations, blending AI, automation, and secure systems to redefine productivity and communication for enterprises worldwide",
+      "As software houses respond to these industry shifts, the future promises even greater innovations, blending AI, automation, and secure systems to redefine productivity and communication for enterprises worldwide.",
     cta: "Read more",
   },
   {
@@ -19,7 +19,7 @@ export const cardData = [
     category: "Webinar",
     date: "December 7th, 2024",
     subText:
-      "Exclusive Insights: Learn from industry experts and discover how top enterprises are optimizing their operations. Reserve your spot now to secure access to this invaluable session. Don’t miss the opportunity to lead the way in secure AI and automatio",
+      "Exclusive Insights: Learn from industry experts and discover how top enterprises are optimizing their operations. Reserve your spot now to secure access to this invaluable session. Don’t miss the opportunity to lead the way in secure AI and automation.",
     cta: "Register now",
   },
   {

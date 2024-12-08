@@ -3,7 +3,7 @@ import React from "react";
 function BannerSmall() {
   return (
     <div className="bg-[#3a3a3a] p-4 rounded-md shadow-md  mx-auto text-center mt-6">
-      <h3 className="text-xl font-bold text-white mb-2">
+      <h3 className="text-2xl font-bold text-white mb-2">
         Master the Future of Automation | Webinar January 19th 19:00 GMT
       </h3>
       <p className="text-white mb-4">Sign Up for Our Latest Webinar Today.</p>
