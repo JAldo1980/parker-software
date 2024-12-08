@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BannerStretch from "./BannerStretch";
 
 function TopNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +13,7 @@ function TopNav() {
   return (
     <div className="sticky top-0 z-50 w-full bg-white shadow-lg">
       <div className=" w-full">
+        <BannerStretch />
         <div className="container mx-auto px-4 py-6 sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] flex justify-between items-center cursor-pointer p-4">
           <div>
             <img

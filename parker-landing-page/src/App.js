@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import FlexImages from "./components/FlexImages";
 import { ProblemsData } from "./data/problems";
 import { ClientData } from "./data/clients";
+import BannerStretch from "./components/BannerStretch";
 
 function App() {
   return (
