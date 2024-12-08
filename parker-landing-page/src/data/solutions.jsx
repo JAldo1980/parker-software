@@ -7,7 +7,7 @@ export const SolutionData = [
     logoColour: "#69acdf",
     imageAltText: "WhosOn logo",
     subText:
-      "WhosOn is a live chat tool that helps your team connect with customers instantly. It’s packed with smart features like directing chats to the right person, working seamlessly with your in-house systems, and even using chatbots to handle simple queries. </br>Built with security at its core, it ensures your customer data stays private. WhosOn makes it easy to deliver great customer service while improving communication across your business.",
+      "WhosOn is a live chat tool that helps your team connect with customers instantly. It’s packed with smart features like directing chats to the right person, working seamlessly with your in-house systems, and even using chatbots to handle simple queries. Built with security at its core, it ensures your customer data stays private. WhosOn makes it easy to deliver great customer service while improving communication across your business.",
     cta: "Learn More",
   },
   {

@@ -1,6 +1,4 @@
 import React from "react";
-import FlexImages from "./FlexImages";
-import { SocialData } from "../data/socials";
 
 function Footer() {
   return (
@@ -26,7 +24,7 @@ function Footer() {
             Contact
           </a>
         </div>
-        <FlexImages data={SocialData} />
+
         <hr className="border-gray-600 mb-4" />
         <div className="text-center text-sm">
           <p>
