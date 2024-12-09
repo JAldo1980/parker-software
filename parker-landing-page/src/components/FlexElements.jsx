@@ -14,7 +14,7 @@ function FlexElements() {
           {ProblemsData.slice(0, 3).map((problem, index) => (
             <div
               key={problem.id}
-              className="flex-grow sm:flex-grow-[1] md:flex-grow-[1.5] lg:flex-grow-[2] h-20 bg-[#3a3a3a] flex items-center justify-center rounded-md shadow-md"
+              className="flex-grow sm:flex-grow-[1] md:flex-grow-[1.5] lg:flex-grow-[2] h-20 bg-[#3a3a3a] flex items-center justify-center rounded-md shadow-md p-2"
             >
               <h3 className="text-white font-semibold text-xl">{problem.h3}</h3>
             </div>
@@ -25,7 +25,7 @@ function FlexElements() {
           {ProblemsData.slice(3, 5).map((problem, index) => (
             <div
               key={problem.id}
-              className="flex-grow sm:flex-grow-[1.5] md:flex-grow lg:flex-grow-[1] h-20 bg-[#3a3a3a] flex items-center justify-center rounded-md shadow-md"
+              className="flex-grow sm:flex-grow-[1.5] md:flex-grow lg:flex-grow-[1] h-20 bg-[#3a3a3a] flex items-center justify-center rounded-md shadow-md p-2"
             >
               <h3 className="text-white font-semibold text-xl">{problem.h3}</h3>
             </div>
