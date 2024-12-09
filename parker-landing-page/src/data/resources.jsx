@@ -3,7 +3,7 @@ export const cardData = [
   {
     id: 1,
     header: "The Future of Software Innovation",
-    imgSrc: "/blog-thubnail-1.png",
+    imgSrc: "blog-post-image-1.png",
     imgAltText: "Image detailing news piece",
     category: "News",
     date: "December 6th, 2024",
@@ -14,7 +14,7 @@ export const cardData = [
   {
     id: 2,
     header: "Revolutionising Business with Automation",
-    imgSrc: "/blog-thubnail-1.png",
+    imgSrc: "blog-post-image-2.png",
     imgAltText: "Image for a webinar event",
     category: "Webinar",
     date: "December 7th, 2024",
@@ -25,7 +25,7 @@ export const cardData = [
   {
     id: 3,
     header: "Download Our White Paper: Maximising Efficiency with Secure AI",
-    imgSrc: "/blog-thubnail-1.png",
+    imgSrc: "blog-post-image-3.png",
     imgAltText: "Image for company white paper",
     category: "White Papers",
     date: "December 8th, 2024",
