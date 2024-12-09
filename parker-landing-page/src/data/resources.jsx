@@ -37,7 +37,7 @@ export const cardData = [
     id: 4,
     header:
       "Unlocking the Future of Enterprise Efficiency: AI & Automation in 2025",
-    imgSrc: "/blog-thubnail-1.png",
+    imgSrc: "blog-post-image-4.png",
     imgAltText: "Image for a blog article",
     category: "Blog",
     date: "December 9th, 2024",

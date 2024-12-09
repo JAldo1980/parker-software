@@ -19,7 +19,7 @@ export const SolutionData = [
     imageAltText: "ThinkAutomation logo",
     subText:
       "ThinkAutomation is like your personal assistant for managing messages. It handles emails, texts, and other incoming messages, organizing them and ensuring the right action is taken automatically. Whether it’s replying to customers, updating records, or following up on tasks, it saves you time and effort, helping your team focus on what matters most.",
-    cta: "Explore ThinkAAutomation",
+    cta: "Explore ThinkAutomation",
   },
   {
     id: 1,
