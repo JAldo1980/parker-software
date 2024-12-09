@@ -33,7 +33,7 @@ function CardsProduct() {
               </h3>
               <p className="mb-4 text-[#3a3a3a]">{card.subText}</p>
             </div>
-            <button className="mt-6 bg-[#e06a61] text-white px-4 py-2 rounded hover:bg-[#e06a69]">
+            <button className="mt-6 bg-[#e06a61] text-white px-4 py-2 rounded hover:bg-[#b5221a]">
               {card.cta}
             </button>
           </div>
