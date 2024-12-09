@@ -2,7 +2,7 @@ export const SolutionData = [
   {
     id: 1,
     header: "WhosOn",
-    image: "/blog-thubnail-1.png",
+    image: "WhosOn-product-image.png",
     thumbnail: "/whoson-logo-sm-white.png",
     logoColour: "#69acdf",
     imageAltText: "WhosOn logo",
@@ -13,7 +13,7 @@ export const SolutionData = [
   {
     id: 1,
     header: "ThinkAutomation",
-    image: "/blog-thubnail-1.png",
+    image: "thinkautomation-product-image.png",
     thumbnail: "/thinkautomation-white-logo.png",
     logoColour: "#78b62d",
     imageAltText: "ThinkAutomation logo",
@@ -24,7 +24,7 @@ export const SolutionData = [
   {
     id: 1,
     header: "OptimaGPT",
-    image: "/blog-thubnail-1.png",
+    image: "optimaGPT-product-image.png",
     thumbnail: "/OGPT-white-logo.png",
     logoColour: "#18171a",
     imageAltText: "OptimaGPT logo",

@@ -26,7 +26,7 @@ function CardsProduct() {
               <img
                 src={card.image}
                 alt={card.imageAltText}
-                className="w-full h-40 object-cover mb-4"
+                className="w-full object-cover mb-4"
               />
               <h3 className="text-xl font-bold mb-2 text-[#3a3a3a]">
                 {card.header}
