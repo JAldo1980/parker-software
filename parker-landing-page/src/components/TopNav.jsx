@@ -21,7 +21,7 @@ function TopNav() {
         >
           <div>
             <img
-              src="parker-software-logo.svg"
+              src="/public/parker-software-logo.svg"
               alt="Parker Software Logo"
               className="w-auto h-12 md:h-14 lg:h-18 object-contain"
             />

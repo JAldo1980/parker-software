@@ -21,7 +21,8 @@ export const ClientData = [
   },
   {
     id: 5,
-    image: "/mcdonalds-logo.png",
+    image:
+      "/Users/jamesalderman/Desktop/parker-software/parker-landing-page/public/mcdonalds-logo.png",
     imgAlt: "McDonalds logo",
   },
   {
