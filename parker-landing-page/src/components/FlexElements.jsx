@@ -6,7 +6,7 @@ function FlexElements() {
     <>
       <div className="flex justify-center mt-6">
         <h className="sm:text-2xl md:text-3xl lg:text-4xl text-[#3a3a3a]">
-          Problems
+          Business Challenges
         </h>
       </div>
       <div className="flex flex-col gap-6 pt-6">

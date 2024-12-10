@@ -4,6 +4,11 @@ import SolutionData from "../data/solutions";
 function CardsProduct() {
   return (
     <>
+      <div className="flex justify-center mt-6">
+        <h className="sm:text-2xl md:text-3xl lg:text-4xl text-[#3a3a3a]">
+          Our Solutions
+        </h>
+      </div>
       <div id="solutions" className="flex justify-center mt-16"></div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

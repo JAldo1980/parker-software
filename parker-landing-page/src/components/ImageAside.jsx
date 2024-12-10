@@ -20,7 +20,7 @@ function ImageAside() {
       {/* Right Section (Image) */}
       <div className="flex justify-center items-center relative w-full h-full">
         <img
-          src="/hero-img.png"
+          src="hero-img.png"
           alt=""
           className="w-2/3 md:w-1/2 lg:w-3/4" // Adjust size here
         />
