@@ -4,9 +4,9 @@ function ImageAside() {
   return (
     <div className="grid gap-6 mt-6 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1">
       <div className="self-center md:w-3/4 lg:w-full">
-        <h2 className="text-[#3a3a3a] text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="text-[#3a3a3a] text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
           Enterprise Communication & Automation Solutions
-        </h2>
+        </h1>
         <p className="text-[#3a3a3a] py-2 text-lg sm:text-base md:text-lg">
           Where innovation meets efficiency. Empowering seamless communication &
           automation for over 22 years.
