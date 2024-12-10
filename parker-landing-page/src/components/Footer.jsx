@@ -13,19 +13,44 @@ function Footer() {
           />
         </div>
         <div className="flex justify-center space-x-8 mb-4">
-          <a href="#" className="hover:text-white">
+          <a
+            href="#"
+            className="hover:text-white"
+            role="menuitem"
+            aria-label="button to home page"
+          >
             Home
           </a>
-          <a href="" className="hover:text-white">
+          <a
+            href=""
+            className="hover:text-white"
+            role="menuitem"
+            aria-label="button to about us page"
+          >
             About Us
           </a>
-          <a href="#solutions" className="hover:text-white">
+          <a
+            href="#solutions"
+            className="hover:text-white"
+            role="menuitem"
+            aria-label="button to solutions section of the page"
+          >
             Solutions
           </a>
-          <a href="#resources" className="hover:text-white">
+          <a
+            href="#resources"
+            className="hover:text-white"
+            role="menuitem"
+            aria-label="button to resources section of the page"
+          >
             Resources
           </a>
-          <a href="" className="hover:text-white">
+          <a
+            href=""
+            className="hover:text-white"
+            role="menuitem"
+            aria-label="button to contact section of the page"
+          >
             Contact
           </a>
         </div>
@@ -36,6 +61,7 @@ function Footer() {
                 src={item.image}
                 alt={item.imgAlt}
                 className="w-6 h-6 object-contain cursor-pointer"
+                aria-label="social media icons"
               />
             </div>
           ))}

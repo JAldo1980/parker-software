@@ -13,7 +13,11 @@ function BannerSmall() {
           placeholder="Enter your email"
           className="w-1/2 p-2 border border-[#61e0c5] rounded-md focus:outline-none focus:ring-2 focus:ring-[#e06a61]"
         />
-        <button className="px-4 py-2 bg-[#e06a61] text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-[#e06a61]">
+        <button
+          className="px-4 py-2 bg-[#e06a61] text-white font-semibold rounded-full hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-[#e06a61]"
+          role="button"
+          aria-label="email sign-up button"
+        >
           Sign up
         </button>
       </div>
