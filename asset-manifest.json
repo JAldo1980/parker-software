@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/parker-landing-page/static/css/main.a165c027.css",
+    "main.js": "/parker-landing-page/static/js/main.34fe8861.js",
+    "static/js/146.90cbcb48.chunk.js": "/parker-landing-page/static/js/146.90cbcb48.chunk.js",
+    "index.html": "/parker-landing-page/index.html",
+    "main.a165c027.css.map": "/parker-landing-page/static/css/main.a165c027.css.map",
+    "main.34fe8861.js.map": "/parker-landing-page/static/js/main.34fe8861.js.map",
+    "146.90cbcb48.chunk.js.map": "/parker-landing-page/static/js/146.90cbcb48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a165c027.css",
+    "static/js/main.34fe8861.js"
+  ]
+}
