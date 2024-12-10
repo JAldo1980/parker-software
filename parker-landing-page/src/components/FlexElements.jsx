@@ -11,7 +11,7 @@ function FlexElements() {
       </div>
       <div className="flex flex-col gap-6 pt-6">
         <div className="flex flex-wrap gap-4 w-full">
-          {ProblemsData.slice(0, 3).map((problem, index) => (
+          {ProblemsData.slice(0, 3).map((problem) => (
             <div
               key={problem.id}
               className="flex-grow sm:flex-grow-[1] md:flex-grow-[1.5] lg:flex-grow-[2] h-20 bg-[#3a3a3a] flex items-center justify-center rounded-md shadow-md p-2"
@@ -22,7 +22,7 @@ function FlexElements() {
         </div>
 
         <div className="flex flex-wrap gap-4 w-full">
-          {ProblemsData.slice(3, 5).map((problem, index) => (
+          {ProblemsData.slice(3, 5).map((problem) => (
             <div
               key={problem.id}
               className="flex-grow sm:flex-grow-[1.5] md:flex-grow lg:flex-grow-[1] h-20 bg-[#3a3a3a] flex items-center justify-center rounded-md shadow-md p-2"
